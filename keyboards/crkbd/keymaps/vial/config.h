@@ -67,17 +67,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
-    #define ENABLE_RGB_MATRIX_CYCLE_ALL
     #define ENABLE_RGB_MATRIX_SOLID_COLOR
     #define ENABLE_RGB_MATRIX_BREATHING
-    #define RGB_MATRIX_JELLYBEAN_RAINDROPS
-    #define RGB_MATRIX_RAINBOW_PINWHEELS
-    #define ENABLE_RGB_MATRIX_BAND_PINWHEEL
-    #define ENABLE_RGB_MATRIX_BAND_SPIRAL
-    #define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
+    #define ENABLE_RGB_MATRIX_CYCLE_ALL
     #define ENABLE_RGB_MATRIX_CYCLE_UP_DOWN
     #define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
-    #define ENABLE_RGB_MATRIX_TYPING_HEATMAP
+    #define ENABLE_RGB_MATRIX_SPLASH
     #define ENABLE_RGB_MATRIX_DIGITAL_RAIN
     #define RGBLIGHT_LIMIT_VAL 120
     #define RGBLIGHT_HUE_STEP 10
@@ -85,5 +80,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_VAL_STEP 17
 #endif
 
-#define RGB_DISABLE_WHEN_USB_SUSPENDED    
+#define RGB_MATRIX_SLEEPS
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
